@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
-
-
+#Upgrading to Ruby 2.2.4
+ruby "2.2.4"
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.0'
 # Use sqlite3 as the database for Active Record
@@ -34,10 +34,10 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
-    
+
     gem 'spring'
     gem 'sqlite3'
-    
+
   end
 
   group :production do
@@ -52,8 +52,8 @@ group :development, :test do
   gem 'web-console', '~> 2.0'
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
- 
-  # Bootstrap fonts 
+
+  # Bootstrap fonts
   gem 'twitter-bootstrap-rails' , :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
 
   # installed awesome fonts
@@ -65,6 +65,3 @@ group :development, :test do
   gem 'devise'
 
   gem 'auto_html'
-
-
-
