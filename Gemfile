@@ -1,6 +1,13 @@
 source 'https://rubygems.org'
+<<<<<<< HEAD
 #Upgrading to Ruby 2.2.4
 ruby "2.2.4"
+=======
+
+#Upgrading Ruby to 2.2.4
+ruby "2.2.4"
+
+>>>>>>> origin/master
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.0'
 # Use sqlite3 as the database for Active Record
